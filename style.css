@@ -1,0 +1,258 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #formulario {
+    width: 600px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+form{
+
+   background-color: #ffff;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0 0 0  / 30%);
+    
+}
+
+i{
+    font-size: 40px;
+    cursor:pointer;
+    position:relative;
+    top: 50%;
+    left:48%;
+    transform: translate(-50%, -50%);
+}
+/* Botones */
+.boton1{
+    position: absolute;
+    left:54%;
+    top: 9.5%;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 40px; /*bordes redondos*/
+
+}
+.boton2{
+    position:absolute;
+    top:9.5%;
+    left: 43%;
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 40px; /*bordes redondos*/
+}
+.boton3{
+    position: absolute;
+    padding      : 12px;
+    font         : bold .8em sans-serif;
+    border       : 2px solid #ae00ff;
+    border-radius: 10px;
+    background-image: url(assets/Buttons);
+    cursor       : pointer;
+    transform    : rotate(-1.5deg);
+}
+
+/* tipo de fuentes */
+.h1script{
+    text-align: center;
+    top: 50%;
+    left:50%;
+    font-size: 3em;
+}
+.font1{
+    font-size: 0.80rem;
+}
+.font2{
+    font-size: 1.0rem;
+}
+.font3{
+    font-size: 1.20rem;   
+}
+
+
+.invalid {
+    border: 2px solid red;
+  }
+
+  .table-container {
+    margin: auto;
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.table-registros {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-registros th,
+.table-registros td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-registros th {
+    background-color: #f2f2f2;
+}
+
+.boton-editar {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    background-color: #2e518b;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.boton-editar:hover {
+    background-color: #1a345f;
+}
+
+.contrasena-oculta:before {
+    content: attr(data-contrasena);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+
+
+
+
+
+header{
+
+    height: 550px;
+    position: relative;
+
+}
+
+.title {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo{
+    width: 90px;
+}
+
+
+.btn{
+    background-color: blue;
+    border-radius: 20px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#row-cursos {
+
+
+    height: 550px;
+    position: relative;
+
+}
+.row {
+    margin: 0;
+}
+
+#row-cursos img{
+    border-radius: 50%;
+}
+
+#row-nosotros{
+
+
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+#row-nosotros img{
+    border-radius: 50%;
+}
+
+#row-trabajos {
+
+
+    height: 550px;
+    position: relative;
+
+}
+#row-trabajos img{
+    border-radius: 50%;
+}
+
+#row-datos {
+
+
+    height: 550px;
+    position: relative;
+
+}
+
+#row-datos img{
+    border-radius: 50%;
+}
+
+
+.textprimary{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+.texttitle{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.textsecundari{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.textparraf{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+footer {
+
+    background-size: cover;
+
+}
